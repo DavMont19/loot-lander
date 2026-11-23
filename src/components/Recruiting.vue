@@ -1,6 +1,6 @@
 <script setup>
 import { ref } from 'vue'
-import { usePartyStore } from '../stores/lootStore'
+import { usePartyStore } from '../Stores/partyStore'
 
 const store = usePartyStore()
 const name = ref('')

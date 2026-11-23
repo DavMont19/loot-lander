@@ -1,5 +1,5 @@
 <script setup>
-import { usePartyStore } from '../stores/lootStore'
+import { usePartyStore } from '../Stores/partyStore'
 
 const store = usePartyStore()
 </script>
